@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khushi Chordiya | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #f3ecff 0%, #edf6ff 35%, #fff4ec 70%, #fffaf5 100%);
+      color: #2d2d2d;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 30px 0;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #1f1147 0%, #4b2e83 35%, #7b2cbf 70%, #c77dff 100%);
+      color: white;
+      padding: 60px 30px;
+      border-radius: 24px;
+      text-align: center;
+      box-shadow: 0 20px 45px rgba(75, 46, 131, 0.18);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid rgba(255,255,255,0.3);
+      margin-bottom: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      transition: 0.4s ease;
+    }
+
+    .profile-img:hover {
+      transform: scale(1.08) rotate(2deg);
+      box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      opacity: 0.95;
+    }
+
+    .contact {
+      margin-top: 20px;
+      font-size: 0.95rem;
+    }
+
+    section {
+      margin-top: 40px;
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(12px);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 14px 40px rgba(91, 62, 160, 0.10);
+    }
+
+    h2 {
+      transition: 0.3s ease;
+      color: #4b2e83;
+      margin-bottom: 18px;
+      font-size: 1.8rem;
+      border-left: 5px solid #8e44ad;
+      padding-left: 12px;
+    }
+
+    h2:hover {
+      letter-spacing: 1px;
+      color: #6c5ce7;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: linear-gradient(135deg, #ffffff 0%, #f8f2ff 55%, #eef7ff 100%);
+      border: 1px solid rgba(108, 92, 231, 0.15);
+      padding: 20px;
+      border-radius: 16px;
+      transition: 0.3s;
+    }
+
+    .hero:hover {
+      transform: translateY(-4px);
+      transition: 0.4s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+    }
+
+    .footer {
+      text-align: center;
+      padding: 30px 0;
+      font-size: 0.95rem;
+      color: #666;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="hero">
+<img src="../k1.jpeg" alt="Khushi Chordiya" class="profile-img">
+      <h1>Khushi Chordiya</h1>
+      <p>B.Tech - Computer Science & Engineering</p>
+      <p>G H Raisoni College of Engineering and Management, Nagpur</p>
+      <div class="contact">
+        
+        <p>E-mail:- kc30nov@gmail.com</p>
+        <p>Linkedin:- linkedin.com/in/khushi-chordiya-2a608a311</p>
+      </div>
+    </div>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p>
+        Dedicated and enthusiastic B.Tech Computer Science & Engineering student with strong academic performance and practical exposure in web development, data structures, and project coordination. Passionate about problem-solving, leadership, and innovation. Experienced in organizing technical events, coordinating hackathons, and contributing to technical forums. Seeking opportunities to apply technical and management skills in real-world projects and professional environments.
+      </p>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Programming Languages</h3>
+          <p>C++, HTML, CSS, JavaScript</p>
+        </div>
+        <div class="card">
+          <h3>Core Competencies</h3>
+          <p>Data Structures, DBMS, Operating Systems, Computer Networks</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.Tech - Computer Science & Engineering</strong><br>
+          G H Raisoni College of Engineering and Management, Nagpur<br>
+          Current Year: 3rd Year | CGPA: 9.48 (Till 5th Semester)
+        </li>
+        <li><strong>HSC</strong><br>
+          Adv. Shankarrao Rathod School, Yavatmal | 81.67% | 2023
+        </li>
+        <li><strong>SSC</strong><br>
+          Little Birds School, Darwha | 96.20% | 2021
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Work Experience</h2>
+      <ul>
+        <li><strong>Web Development Intern</strong> – One-Month Internship<br>
+          Executed frontend development tasks and gained practical exposure in website implementation and project handling.
+        </li>
+        <li><strong>Social Internship | VNIT</strong><br>
+          Participated in community-driven initiatives and received an NGO Participation Certificate.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="card">
+        <h3>Fast Light Communication (Li-Fi) | Minor Project</h3>
+        <p>
+          Developed a Visible Light Communication system for wireless data transfer. Transmitted text messages via LED signals and decoded them using Arduino Uno for secure indoor communication.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Positions of Responsibility</h2>
+      <ul>
+        <li>Co-organizer: TEDxGHRCEMN</li>
+        <li>Joint Secretary: CORTEX Forum (Under CSE Department)</li>
+        <li>Organizer: KBT (Kaun Banega Techmaster) – 2025</li>
+        <li>Organizer: BrandForge – 2026</li>
+        <li>Coordinator: Multiple Hackathons and Technical Events</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Certifications & Achievements</h2>
+      <ul>
+        <li>1st Rank – Digital Art Illustration (2026)</li>
+        <li>2nd Rank – Digital Art Illustration (2025)</li>
+        <li>1st Position – Art Competition (First Year)</li>
+        <li>2nd Rank – Badminton Competition</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Languages & Interests</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Languages</h3>
+          <p>English, Hindi, Marathi, German (Beginner)</p>
+        </div>
+        <div class="card">
+          <h3>Interests</h3>
+          <p>Sketching and Art, Reading Books, Travelling</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Declaration</h2>
+      <p>
+        I hereby declare that the above-mentioned information is true and correct to the best of my knowledge and belief.
+      </p>
+      <br>
+      <p><strong>Khushi Chordiya</strong></p>
+    </section>
+
+   
+    <div class="footer">
+  <h3>Khushi Chordiya</h3>
+  <p>B.Tech | Computer Science & Engineering</p>
+ 
+</div>
+
+<style>
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #2d1b69, #5f27cd, #8e44ad);
+  color: white;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -10px 30px rgba(75, 46, 131, 0.15);
+  transition: 0.4s ease;
+}
+
+.footer:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 -15px 40px rgba(75, 46, 131, 0.25);
+}
+
+.footer h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.footer p {
+  font-size: 1rem;
+  opacity: 0.95;
+  margin: 6px 0;
+}
+</style>
+
+  </div>
+
+</body>
+</html>
